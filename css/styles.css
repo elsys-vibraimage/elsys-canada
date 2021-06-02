@@ -258,8 +258,9 @@ background: #343434;
   color: #000;
 }
 /* https://www.timar.co.uk/wp-content/uploads/2020/07/CCTV-Control-Room.jpg */
+/* ../images/banner/vibra_product.jpeg */
 #hero-banner{
-  background:  url('../images/banner/vibra_product.jpeg') no-repeat  80% center; 
+  background:  url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?cs=srgb&dl=pexels-pixabay-373543.jpg') no-repeat  80% center; 
   /* box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.096); */
   
   }
@@ -274,7 +275,7 @@ background: #343434;
 }
 #hero-banner.banner-inner .btn {
   margin-top: 10px;
-} 
+}
  
 #hero-text {
   padding: 50px 0;
@@ -291,12 +292,13 @@ background: #343434;
   background: #fff;
 }
 
+/* ../images/banner/vibra_med.jpeg */
 #hero-banner2{
   overflow: hidden;
   height:650px;
   color: #4C4C4C;
   border-bottom: 0px solid #BDBDBD;
-  background:  url('../images/banner/vibra_med.jpeg') no-repeat  80% center; 
+  background:  url('https://images.pexels.com/photos/4173251/pexels-photo-4173251.jpeg?cs=srgb&dl=pexels-gustavo-fring-4173251.jpg&fm=jpg') no-repeat ; 
 }
 
 #hero-banner2.item {
@@ -1205,3 +1207,44 @@ body {
     margin-bottom: 20px;
   }
 }
+
+
+#hero-banner3{
+  overflow: hidden;
+  height:650px;
+  color: #4C4C4C;
+  border-bottom: 0px solid #BDBDBD;
+}
+#hero-banner3.item {
+  height: 558px;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+#hero-banner3.banner-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #000;
+}
+/* https://www.timar.co.uk/wp-content/uploads/2020/07/CCTV-Control-Room.jpg */
+#hero-banner3{
+  /* background:  url('../images/banner/vibra_product.jpeg') no-repeat  80% center;  */
+  box-shadow:inset 0 0 0 2000px rgba(0, 0, 0, 0.096);
+  
+  }
+
+#hero-banner3 h2 {
+  margin-top: 180px;
+  font-size: 39px;
+  line-height: 49px;  
+}
+#hero-banner3.banner-inner h2 > span {
+  color: #45aed6;
+}
+#hero-banner3.banner-inner .btn {
+  margin-top: 10px;
+} 
+
